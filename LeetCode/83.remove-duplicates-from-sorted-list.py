@@ -38,26 +38,26 @@
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         temp = head
-        while head and head.next:
-            if head.val == head.next.val:
+        while head:
+            if head.next and head.val == head.next.val:
                 head.next = head.next.next
+            else:
                 head = head.next
         return temp
 
-# if __name__ == "__main__":
-#     head = ListNode(1)
-#     node1 = ListNode(1)
-#     node2 = ListNode(2)
-#     node3 = ListNode(2)
-#     node4 = ListNode(3)
-#     head.next = node1
-#     node1.next = node2
-#     node2.next = node3
-#     node3.next = node4    
-#     result = Solution().deleteDuplicates(head)
-#     while result:
-#         print(result.val)
-#         result = result.next
-
-        
-
+'''
+if __name__ == "__main__":
+    head = ListNode(1)
+    node1 = ListNode(1)
+    node2 = ListNode(2)
+    # node3 = ListNode(2)
+    # node4 = ListNode(3)
+    head.next = node1
+    node1.next = node2
+    # node2.next = node3
+    # node3.next = node4    
+    result = Solution().deleteDuplicates(head)
+    while result:
+        print(result.val)
+        result = result.next
+'''
