@@ -58,29 +58,29 @@
 ## 三路取苹果
 
 ## Triangle
-- http://www.lintcode.com/problem/triangle/
+- lintcode109.triangle.py
 
 ## MinimunPathSum
-- http://www.lintcode.com/problem/minimum-path-sum/
+- lintcode110.minimum-path-sum.py
 
 ## UniquePath
-- http://www.lintcode.com/problem/unique-paths/
+- lintcode114.unique-paths.py
 
 ## JumpGame
-- http://www.lintcode.com/en/problem/jump-game/
-- http://www.lintcode.com/en/problem/jump-game-ii/
+- lintcode116.jump-game.py
+- lintcode117.jump-game-ii.py
 
 ## LongestIncreasingSbusequence
-- http://www.lintcode.com/problem/longest-increasing-subsequence/
+- lintcode76.longest-increasing-subsequence.py
 
 ## perfectSquare
-- http://www.lintcode.com/en/problem/perfect-squares/
+- lintcode513.perfect-squares.py
 
 ## largestDivisibleSubset
-- http://www.lintcode.com/en/problem/largest-divisible-subset/
+- lintcode603.largest-divisible-subset.py
 
 ## 俄罗斯套娃
-- http://www.lintcode.com/en/problem/russian-doll-envelopes/
+- lintcode602.russian-doll-envelopes.py
 
 ## 青蛙过河
-- http://www.lintcode.com/en/problem/frog-jump/
+- lintcode622.frog-jump.py
