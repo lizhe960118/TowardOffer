@@ -41,5 +41,5 @@ class Solution(object):
 if __name__ == "__main__":
     print(Solution().findMedianSortedArrays([1, 2], [1, 2, 3]))
     print(Solution().findMedianSortedArrays([], [2, 3]))
-    print(Solution().findMedianSortedArrays([8], [1,2,3,4]))
+    print(Solution().findMedianSortedArrays([8], [1, 2, 3, 4]))
     print(Solution().findMedianSortedArrays([1, 2], [3, 4]))
